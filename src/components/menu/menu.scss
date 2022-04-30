@@ -1,0 +1,18 @@
+
+@import '../../global.scss'; 
+.menu {
+  ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    li {
+      padding: 0 1.5em;
+      a{
+        color: $mainColor;
+        text-decoration: none;
+        font-weight: 400;
+      }
+    }
+  }
+}
