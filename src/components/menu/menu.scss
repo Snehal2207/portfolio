@@ -1,17 +1,18 @@
-
-@import '../../global.scss'; 
+@import "../../global.scss";
 .menu {
   ul {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    font-weight: 400;
+    list-style: none;
     li {
       padding: 0 1.5em;
-      a{
+      a {
         color: $mainColor;
         text-decoration: none;
-        font-weight: 400;
+      }
+      &:hover {
+        font-weight: 500;
       }
     }
   }
